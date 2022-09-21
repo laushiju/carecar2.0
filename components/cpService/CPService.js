@@ -18,14 +18,24 @@ export default function CPService() {
         <p>
           <a onClick={clickHandler}>
             <RdButton>
-              <Image src="/CC-care-partner.png" width={80} height={80} />
+              <Image
+                src="/CC-care-partner.png"
+                alt="CarePartner"
+                width={80}
+                height={80}
+              />
               <h2>Driver Solutions</h2>
             </RdButton>
           </a>
           <Link href="/">
             <a>
               <RdButton>
-                <Image src="/Member+Icon+(6).png" width={80} height={80} />
+                <Image
+                  src="/Member+Icon+(6).png"
+                  alt="CarePartner"
+                  width={80}
+                  height={80}
+                />
                 <h2>Care Partner</h2>
               </RdButton>
             </a>
@@ -33,7 +43,12 @@ export default function CPService() {
           <Link href="/">
             <a>
               <RdButton>
-                <Image src="/CC-health-plan.png" width={80} height={80} />
+                <Image
+                  src="/CC-health-plan.png"
+                  alt="HealthPlanPartner "
+                  width={80}
+                  height={80}
+                />
                 <h2>Health Plan Partner</h2>
               </RdButton>
             </a>
