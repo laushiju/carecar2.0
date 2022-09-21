@@ -1,0 +1,30 @@
+.logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: 500px;
+  height: 100px;
+}
+.phone {
+  height: 2rem;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #eee;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+    height: 50px;
+  }
+  .phone {
+    height: 1rem;
+    justify-content: flex-end;
+  }
+}

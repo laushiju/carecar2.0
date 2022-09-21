@@ -1,0 +1,28 @@
+.container {
+  width: 60rem;
+  height: 30rem;
+  color: #000e42;
+  background-color: #eee;
+  border-radius: 10px;
+  z-index: 10;
+  position: fixed;
+  top: 30vh;
+  left: calc(50% - 30rem);
+  padding: 2rem;
+  text-align: center;
+}
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  display: block;
+}
+.container button {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.btn:hover {
+  background-color: #333;
+}
+.btn:active {
+  transform: translateY(10px);
+}
