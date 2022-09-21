@@ -1,5 +1,5 @@
 import styles from "./RdButton.module.css";
-const Button = ({ children }) => {
+const RdButton = ({ children }) => {
   return <button className={styles.btn}>{children}</button>;
 };
-export default Button;
+export default RdButton;
