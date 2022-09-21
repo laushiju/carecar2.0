@@ -1,9 +1,9 @@
 import styles from "./ContactForm.module.css";
 
 export default function ContactForm() {
-  // const submitHandler = () => {
-  //   console.log("submitted");
-  // };
+  const submitHandler = () => {
+    console.log("submitted");
+  };
   return (
     <div className={styles.container}>
       <h1>Contact Us</h1>
@@ -18,7 +18,9 @@ export default function ContactForm() {
           <label htmlFor="message">Message: </label>
           <textarea rows="5" id="message" required />
         </div>
-        <button type="submit">Submit</button>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   );
