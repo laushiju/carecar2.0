@@ -1,13 +1,13 @@
 import styles from "./ContactForm.module.css";
 
 export default function ContactForm() {
-  const submitHandler = () => {
-    console.log("submitted");
-  };
+  // const submitHandler = () => {
+  //   console.log("submitted");
+  // };
   return (
     <div className={styles.container}>
       <h1>Contact Us</h1>
-      <form onSubmit={submitHandler}>
+      <form>
         <div className={styles.control}>
           <label htmlFor="name">Name: </label>
           <input type="text" id="name" required />
