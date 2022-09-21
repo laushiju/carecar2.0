@@ -1,12 +1,12 @@
 import styles from "./Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
-const Header = () => {
+export default function Header() {
   return (
     <div className={styles.container}>
       <Link href="/">
         <a className={styles.logo}>
-          <Image src="/carecar.png" width={800} height={77} />
+          <Image src="/carecar.png" alt="CareCar" width={800} height={77} />
         </a>
       </Link>
       <h4 className={styles.phone}>
@@ -28,6 +28,4 @@ const Header = () => {
       </h4>
     </div>
   );
-};
-
-export default Header;
+}
