@@ -14,46 +14,47 @@ export default function MemberService() {
     <div className={styles.container}>
       <h1>Member Service</h1>
       <div>
-        <p>
-          <Link href="/">
-            <a>
-              <Button>English</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>Spanish</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>繁體中文</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>簡體中文</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>Korean</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>Vietnam</Button>
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <Button>Japanese</Button>
-            </a>
-          </Link>
-          <a onClick={clickHandler}>
-            <Button>Others</Button>
+        <Link href="/">
+          <a>
+            <Button>
+              <p>English</p>
+            </Button>
           </a>
-        </p>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>Spanish</Button>
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>繁體中文</Button>
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>簡體中文</Button>
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>Korean</Button>
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>Vietnam</Button>
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <Button>Japanese</Button>
+          </a>
+        </Link>
+        <a onClick={clickHandler}>
+          <Button>Others</Button>
+        </a>
+
         {showModal && (
           <ShowAlerts
             onClose={() => {

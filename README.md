@@ -1,10 +1,10 @@
 Hi, this is the clone/redesign website on the company I am currently working for. I only made the front page in my CSR position point of view. Thank you for checking out my personal project!
 
-website at a glance:
+website at a glance: https://carecar2-0.vercel.app/
 
 Zoom in @ 33%
-![This is an image](/screenshots/view1)
+<img src="/screenshots/view1">
 Zoomin @ 75%
-![This is an image](/screenshots/view2)
+<img src="/screenshots/view2">
 Zoom in @ 100%
-![This is an image](/screenshots/view3)
+<img src="/screenshots/view3">
