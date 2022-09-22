@@ -24,48 +24,48 @@ export default function MemberService() {
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>Spanish</p>
             </Button>
           </a>
         </Link>
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>繁體中文</p>
             </Button>
           </a>
         </Link>
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>簡體中文</p>
             </Button>
           </a>
         </Link>
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>Korean</p>
             </Button>
           </a>
         </Link>
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>Vietnamese</p>
             </Button>
           </a>
         </Link>
         <Link href="/">
           <a>
             <Button>
-              <p>English</p>
+              <p>Japanese</p>
             </Button>
           </a>
         </Link>
         <a onClick={clickHandler}>
           <Button>
-            <p>English</p>
+            <p>Others</p>
           </Button>
         </a>
 

@@ -7,4 +7,4 @@ Zoom in @ 33%
 Zoom in @ 75%
 ![github image](https://github.com/laushiju/carecar2.0/blob/main/public/screenshots/view2.PNG?raw=true)
 Zoom in @ 100%
-<img src="/screenshots/view3">
+![github image](https://github.com/laushiju/carecar2.0/blob/main/public/screenshots/view3.PNG?raw=true)
