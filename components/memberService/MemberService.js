@@ -52,7 +52,7 @@ export default function MemberService() {
         <Link href="/">
           <a>
             <Button>
-              <p>Vietnamese</p>
+              <p>Vietnam</p>
             </Button>
           </a>
         </Link>
