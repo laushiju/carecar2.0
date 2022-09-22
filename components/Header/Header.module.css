@@ -1,28 +1,28 @@
-.logo {
-  margin-left: 2rem;
-  display: inline-flex;
-  justify-content: flex-start;
-  cursor: pointer;
-  width: 500px;
-  height: 100px;
-}
-.phone {
-  height: 2rem;
-  display: inline-flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 2rem;
-}
 .container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   background-color: #eee;
 }
+.logo {
+  margin-left: 2rem;
+  cursor: pointer;
+  height: 8rem;
+  width: 40rem;
+}
+.phone {
+  height: 3rem;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.container h4 {
+  font-size: 2rem;
+}
+
 @media (max-width: 768px) {
   .logo {
-    width: 200px;
-    height: 50px;
+    width: 5rem;
+    height: 1rem;
   }
   .phone {
     height: 1rem;

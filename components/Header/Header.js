@@ -6,7 +6,7 @@ export default function Header() {
     <div className={styles.container}>
       <Link href="/">
         <a className={styles.logo}>
-          <Image src="/carecar.png" alt="CareCar" width={800} height={77} />
+          <Image src="/carecar.png" alt="CareCar" width={500} height={120} />
         </a>
       </Link>
       <h4 className={styles.phone}>

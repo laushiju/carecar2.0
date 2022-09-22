@@ -13,7 +13,6 @@
 }
 .container p {
   font-size: 1.8rem;
-  display: inline;
 }
 @media (max-width: 768px) {
   .container {
