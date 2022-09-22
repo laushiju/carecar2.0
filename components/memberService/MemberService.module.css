@@ -8,10 +8,11 @@
 
 .container h1 {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 4rem;
   color: #000e42;
 }
 .container p {
+  font-size: 1.8rem;
   padding: 1rem;
   display: inline-block;
 }
