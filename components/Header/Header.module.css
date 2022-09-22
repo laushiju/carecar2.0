@@ -20,12 +20,18 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 200%;
+  }
   .logo {
-    width: 5rem;
-    height: 1rem;
+    width: 10rem;
+    height: 2rem;
   }
   .phone {
     height: 1rem;
     justify-content: flex-end;
+  }
+  .container h4 {
+    font-size: 0.5rem;
   }
 }

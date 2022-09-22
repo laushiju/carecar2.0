@@ -24,6 +24,24 @@
 }
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 200%;
+  }
+  .container h1 {
+    display: inline-block;
+    font-size: 4rem;
+    color: #000e42;
+  }
+  .control label {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .control input,
+  .control textarea {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .container button {
+    font-size: 2rem;
   }
 }

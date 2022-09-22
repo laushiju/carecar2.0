@@ -17,6 +17,6 @@
 }
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 200%;
   }
 }
