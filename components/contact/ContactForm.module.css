@@ -22,3 +22,8 @@
 .container button {
   font-size: 4rem;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
